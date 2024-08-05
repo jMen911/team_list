@@ -1,0 +1,17 @@
+Package            Version
+------------------ --------
+appJar             0.94.0
+autopep8           2.0.4
+click              8.1.7
+importlib-metadata 6.7.0
+itsdangerous       2.1.2
+Jinja2             3.1.4
+MarkupSafe         2.1.5
+pip                23.0.1
+pycodestyle        2.10.0
+pycurl             7.43.0.6
+setuptools         39.0.1
+tomli              2.0.1
+typing_extensions  4.7.1
+Werkzeug           2.2.3
+zipp               3.15.0
