@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from './service';
+import { Player } from './player';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ import { ApiService } from './service';
 export class AppComponent implements OnInit {
   title = "";
   message = "";
+  p: Player = {id:1, surname:"Julien", name:"Mengeot", position:[9, 11, 14]}
 
   constructor(private _apiservice: ApiService) { }
 
