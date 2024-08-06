@@ -8,8 +8,8 @@ CORS(app)
 @app.route('/api/data')
 def get_data():
     data = {
-        'title': 'Welcome to Angular-Python App',
-        'message': 'This is an example integration between Angular and Python!'
+        'title': 'Bienvenue dans mon application pour sublimer vos feuilles de match',
+        'message': 'Un max de likes sur votre insta avec des feuilles de match canons'
     }
     return jsonify(data)
 
