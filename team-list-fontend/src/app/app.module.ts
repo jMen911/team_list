@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { PlayerCreationComponent } from './player-creation/player-creation.component';
+import { HomeComponent } from './home/home.component';
+import { TeamListComponent } from './team-list/team-list.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    PlayerCreationComponent,
+    HomeComponent,
+    TeamListComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
