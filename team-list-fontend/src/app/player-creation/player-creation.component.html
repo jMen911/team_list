@@ -1,1 +1,21 @@
-<p>player-creation works!</p>
+<h1>Créer un joueur</h1>
+<div>
+  <form [formGroup]="applyForm" (submit)="submitApplication()">
+    <label for="first-name">Prénom</label>
+    <input id="first-name" type="text" formControlName="firstName" />
+    <label for="last-name">Nom</label>
+    <input id="last-name" type="text" formControlName="lastName" />
+
+
+
+    <!-- <label for="positions">Numéros</label>
+    @for (key of positions.keys(); track positions.keys()){
+    <p>
+      <input type="checkbox">{{positions.get(key)}}
+    </p>
+
+    } -->
+
+    <button type="submit" class="primary">Sauver joueur</button>
+  </form>
+</div>
