@@ -1,11 +1,13 @@
 
 import { Component } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-player-creation',
-  templateUrl: './player-creation.component.html',
-  styleUrl: './player-creation.component.css'
+    selector: 'app-player-creation',
+    templateUrl: './player-creation.component.html',
+    styleUrl: './player-creation.component.css',
+    standalone: true,
+    imports: [ReactiveFormsModule]
 })
 export class PlayerCreationComponent {
   positions = new Map<number, string>([
